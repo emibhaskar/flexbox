@@ -70,7 +70,9 @@ body {
 a{
   display: block;
   -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; 
   outline: none;
+  user-select:none;
   text-decoration: none;
   color: inherit;
 }
