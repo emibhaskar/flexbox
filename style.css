@@ -68,7 +68,17 @@ body {
   user-select: none;
 }
 a{
+  display: block;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
   text-decoration: none;
+  color: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  box-shadow: none;
 }
 @media(max-width:1042px){
     .card-section{
