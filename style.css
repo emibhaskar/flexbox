@@ -59,13 +59,17 @@ body {
   font-size: 1.8rem;
   color: #00f7ff;
   margin-bottom: 0.8rem;
+  user-select: none;
 }
 
 .card p {
   color: #ccc;
   font-size: 1rem;
+  user-select: none;
 }
-
+a{
+  text-decoration: none;
+}
 @media(max-width:1042px){
     .card-section{
         flex-wrap:wrap;
